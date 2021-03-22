@@ -28,5 +28,6 @@ show_string:
 	li    $v0, 11
 	add   $s1, $s0, $t0
 	lb    $a0, 0($s1)
+	syscall
 	j     show_string
-end:	
+end:
