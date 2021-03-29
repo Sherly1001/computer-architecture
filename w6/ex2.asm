@@ -52,3 +52,5 @@ loop:
 	j    loop               # change completed; now repeat
 ret:
 	j    after_max
+
+# bài này sẽ tìm max của mảng và đưa về cuối mảng, rồi tiếp tục cho đến khi mảng được sắp xếp
