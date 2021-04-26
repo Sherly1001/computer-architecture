@@ -1,0 +1,1 @@
+- Sau khi chạy lệnh `jal abs` thì chương trình nhảy đến địa chỉ của nhãn abs đồng thời lưu lại địa chỉ của câu lệnh ngay sau lệnh `jal`
