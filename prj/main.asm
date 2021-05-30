@@ -111,6 +111,8 @@ op_div:
   div   $t1, $t2
   mflo  $t4
 op_done:
+  addi  $t1, $0, 0
+  addi  $t2, $0, 0
   move  $a0, $t4
   jal   show_led
   nop
